@@ -34,8 +34,37 @@
 # str = "prasanna"
 # print(str[::-1])
 
-s = " Hello ,World!"
-s2 = s[:]
-s3= s[::]
-print(s2,s3)
+#s = " Hello ,World!"
+#s2 = s[:]
+#s3= s[::]
+#print(s2,s3)
+
+
+
+
+#s = "madam"
+#i,j = 0, len(s)-1
+#is_palindrome = True
+#while i <j:
+ #   if s[i] != s[j]:
+  #      is_palindrome = False
+   #     break
+    #i +=1
+    #j-=1
+    #if is_palindrome:
+     #   print("Yes")
+    #else:
+     #   print("NO")
+
+
+
+
+s = "madam"
+if s == s[::-1]:
+    print("Yes")
+else:
+    print("No")
+
+
+
 
