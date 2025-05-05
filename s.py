@@ -34,12 +34,20 @@
 # str = "prasanna"
 # print(str[::-1])
 
+
+
 #s = " Hello ,World!"
 #s2 = s[:]
 #s3= s[::]
 #print(s2,s3)
 
 
+s = " Hello, World!"
+print(s[::3])
+print(s[1:8:3])
+
+#s = "Hello, World!"
+#print(s[1:5])
 
 
 #s = "madam"
@@ -59,11 +67,11 @@
 
 
 
-s = "madam"
-if s == s[::-1]:
-    print("Yes")
-else:
-    print("No")
+#s = "madam"
+ # if s == s[::-1]:
+   # print("Yes")
+# else:
+  #  print("No")
 
 
 
